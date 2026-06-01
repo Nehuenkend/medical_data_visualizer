@@ -34,3 +34,34 @@ Este proyecto realiza un análisis exploratorio de datos médicos relacionados c
 ├── catplot.png                   # Gráfico categórico generado
 ├── heatmap.png                   # Mapa de calor generado
 └── README.md                     # Documentación del proyecto
+```
+
+---
+
+## 🚀 Cómo Ejecutarlo
+
+### 1. Requisitos previos
+Asegúrate de tener Python instalado en tu sistema. Antes de correr el script, debes instalar las dependencias requeridas. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### 2. Ejecución del script
+El programa está diseñado para ser flexible y puede ejecutarse de dos maneras desde la terminal:
+
+**Opción A: Usar el archivo por defecto**
+Si el archivo `medical_examination.csv` se encuentra en la misma carpeta que el script, simplemente ejecuta:
+```bash
+python main.py
+```
+
+**Opción B: Especificar la ruta del archivo**
+Si tu dataset tiene otro nombre o se encuentra en un directorio diferente, puedes pasar la ruta exacta como parámetro:
+```bash
+python main.py <ruta_al_archivo>
+```
+*Ejemplo:*
+```bash
+python main.py ./datos/pacientes_2026.csv
+```
